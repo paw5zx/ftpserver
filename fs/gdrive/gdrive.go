@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/afero"
 	"golang.org/x/oauth2"
 
-	"github.com/fclairamb/ftpserver/config/confpar"
-	"github.com/fclairamb/ftpserver/fs/utils"
+	"github.com/paw5zx/ftpserver/config/confpar"
+	"github.com/paw5zx/ftpserver/fs/utils"
 )
 
 // ErrMissingGoogleClientCredentials is returned when you have specified the google_client_id and/or

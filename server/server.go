@@ -11,13 +11,13 @@ import (
 
 	"github.com/spf13/afero"
 
-	serverlib "github.com/fclairamb/ftpserverlib"
 	log "github.com/fclairamb/go-log"
+	serverlib "github.com/paw5zx/ftpserverlib"
 
-	"github.com/fclairamb/ftpserver/config"
-	"github.com/fclairamb/ftpserver/config/confpar"
-	"github.com/fclairamb/ftpserver/fs"
-	"github.com/fclairamb/ftpserver/fs/fslog"
+	"github.com/paw5zx/ftpserver/config"
+	"github.com/paw5zx/ftpserver/config/confpar"
+	"github.com/paw5zx/ftpserver/fs"
+	"github.com/paw5zx/ftpserver/fs/fslog"
 )
 
 // Server structure

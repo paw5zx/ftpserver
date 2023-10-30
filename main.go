@@ -10,12 +10,12 @@ import (
 	"syscall"
 	"time"
 
-	ftpserver "github.com/fclairamb/ftpserverlib"
 	gkwrap "github.com/fclairamb/go-log/gokit"
 	gokit "github.com/go-kit/log"
+	ftpserver "github.com/paw5zx/ftpserverlib"
 
-	"github.com/fclairamb/ftpserver/config"
-	"github.com/fclairamb/ftpserver/server"
+	"github.com/paw5zx/ftpserver/config"
+	"github.com/paw5zx/ftpserver/server"
 )
 
 var (

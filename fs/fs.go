@@ -8,13 +8,13 @@ import (
 	log "github.com/fclairamb/go-log"
 	"github.com/spf13/afero"
 
-	"github.com/fclairamb/ftpserver/config/confpar"
-	"github.com/fclairamb/ftpserver/fs/afos"
-	"github.com/fclairamb/ftpserver/fs/dropbox"
-	"github.com/fclairamb/ftpserver/fs/gdrive"
-	"github.com/fclairamb/ftpserver/fs/mail"
-	"github.com/fclairamb/ftpserver/fs/s3"
-	"github.com/fclairamb/ftpserver/fs/sftp"
+	"github.com/paw5zx/ftpserver/config/confpar"
+	"github.com/paw5zx/ftpserver/fs/afos"
+	"github.com/paw5zx/ftpserver/fs/dropbox"
+	"github.com/paw5zx/ftpserver/fs/gdrive"
+	"github.com/paw5zx/ftpserver/fs/mail"
+	"github.com/paw5zx/ftpserver/fs/s3"
+	"github.com/paw5zx/ftpserver/fs/sftp"
 )
 
 // UnsupportedFsError is returned when the described file system is not supported
