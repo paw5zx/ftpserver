@@ -1,4 +1,4 @@
-module github.com/fclairamb/ftpserver
+module github.com/paw5zx/ftpserver
 
 go 1.19
 
@@ -8,7 +8,7 @@ require (
 	github.com/fclairamb/afero-gdrive v0.3.0
 	github.com/fclairamb/afero-s3 v0.3.1
 	github.com/fclairamb/afero-snd v0.1.0
-	github.com/fclairamb/ftpserverlib v0.22.0
+	github.com/paw5zx/ftpserverlib v0.21.0
 	github.com/fclairamb/go-log v0.4.1
 	github.com/go-mail/mail v2.3.1+incompatible
 	github.com/pkg/sftp v1.13.6
