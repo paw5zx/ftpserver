@@ -51,7 +51,7 @@ require (
 	gopkg.in/mail.v2 v2.3.1 // indirect
 )
 
-// replace github.com/fclairamb/ftpserverlib => /Users/florent/go/src/github.com/fclairamb/ftpserverlib
+replace github.com/paw5zx/ftpserverlib => /mnt/hgfs/Git_CRRCHZ/paw5zx-nanning-ftpserverlib
 // replace github.com/fclairamb/afero-s3 => /Users/florent/go/src/github.com/fclairamb/afero-s3
 // replace github.com/fclairamb/afero-gdrive => /Users/florent/go/src/github.com/fclairamb/afero-gdrive
 // replace github.com/fclairamb/afero-snd => /Users/florent/go/src/github.com/fclairamb/afero-snd

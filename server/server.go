@@ -139,8 +139,12 @@ func (s *Server) WaitGracefully(timeout time.Duration) error {
 	}
 }
 
+//没有客户端连接时，会触发此函数
+//保证在停止服务器时，不会立即断开所有客户端的连接，而是等它们自行断开连接,实现一个优雅的服务器停止过程
+//zeroClientEvent通道，用于同步，注意zeroClientEvent不是无缓冲通道https://blog.csdn.net/lengyue1084/article/details/117783048
 func (s *Server) considerEnd() {
 	if s.nbClients == 0 && s.zeroClientEvent != nil {
+		s.logger.Debug("call considerEnd")
 		s.zeroClientEvent <- nil
 		close(s.zeroClientEvent)
 	}
